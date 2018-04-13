@@ -14,7 +14,7 @@ Commented out commands need to be ran manually.
 
 - clone repo
 - cd /repo
-- vagrant init
+- vagrant up
 - vagrant ssh
 - $vagrant: sudo su root
 - copy commented commands from bootstrap.sh into terminal
