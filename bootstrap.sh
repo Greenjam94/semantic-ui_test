@@ -7,11 +7,9 @@ apt-get install -y nodejs
 cd /vagrant
 npm install -g gulp
 #npm install semantic-ui --save
+#cd semantic/
+#gulp build
 
-cd semantic/
-gulp build
-
-#do it myself
 rm -rf /var/www/html
-ln -s /vagrant/project/ /var/www/html
-cp -r /vagrant/semantic/dist/ /vagrant/project/assets/semantic
+#ln -s /vagrant/project/ /var/www/html
+#cp -r /vagrant/semantic/dist/ /vagrant/project/assets/semantic
